@@ -10930,6 +10930,12 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    transition: border-color 1s;
+  }
+  #sideNav .img-profile:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
   }
   #sideNav .navbar-collapse {
     display: flex;
